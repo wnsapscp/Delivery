@@ -1,4 +1,4 @@
-namespace com.ksc.delivery;
+namespace ksc.delivery;
     entity T_DlvArrInf {
             BUKRS     : String;
             SHPCRDT   : DateTime;
