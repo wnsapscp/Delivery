@@ -1,0 +1,14 @@
+{
+  "welcomeFile": "/deliveryUI/index.html",
+  "authenticationMethod": "route",
+  "logout": {
+    "logoutEndpoint": "/do/logout"
+  },
+  "routes": [
+    {
+      "source": "^/deliveryUI/(.*)$",
+      "target": "$1",
+      "localDir": "webapp"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "welcomeFile": "/webapp/index.html",
+  "routes": [
+    {
+      "path": "/resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/resources"
+      },
+      "description": "SAPUI5 Resources"
+    },
+    {
+      "path": "/test-resources",
+      "target": {
+        "type": "service",
+        "name": "sapui5",
+        "entryPath": "/test-resources"
+      },
+      "description": "SAPUI5 Test Resources"
+    },
+    {
+      "path": "/sap/opu/odata/sap/API_OUTBOUND_DELIVERY_SRV",
+      "target": {
+        "type": "destination",
+        "name": "S4HC_Out_Delivery_Update_Odata"
+      },
+      "description": "S4HCåºè·ä¼ç¥¨ã®æ´æ°"
+    }
+  ],
+  "sendWelcomeFileRedirect": true
+}
